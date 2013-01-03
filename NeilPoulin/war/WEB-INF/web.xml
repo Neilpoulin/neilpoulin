@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <!-- Servlets -->
+ 
+	<servlet>
+		<servlet-name>myresume</servlet-name>
+		<jsp-file>/resume.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>myresume</servlet-name>
+		<url-pattern>/resume</url-pattern>
+	</servlet-mapping>
+  
+  	<servlet>
+		<servlet-name>letter</servlet-name>
+		<jsp-file>/letter.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>letter</servlet-name>
+		<url-pattern>/letter</url-pattern>
+	</servlet-mapping>
+  
+  	<servlet>
+		<servlet-name>mycontact</servlet-name>
+		<jsp-file>/contact.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mycontact</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+  
+  	<servlet>
+		<servlet-name>main</servlet-name>
+		<jsp-file>/main.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>main</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+  
+	<servlet>
+		<servlet-name>projects</servlet-name>
+		<jsp-file>/projects.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>projects</servlet-name>
+		<url-pattern>/projects</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>game</servlet-name>
+		<jsp-file>/game.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>game</servlet-name>
+		<url-pattern>/projects/game</url-pattern>
+	</servlet-mapping>  
+  	
+  	<servlet>
+		<servlet-name>benzawacki</servlet-name>
+		<jsp-file>/benzawacki.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>benzawacki</servlet-name>
+		<url-pattern>/projects/benzawacki</url-pattern>
+	</servlet-mapping>  	
+  
+  	<servlet>
+		<servlet-name>mapping</servlet-name>
+		<jsp-file>/mapping.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mapping</servlet-name>
+		<url-pattern>/projects/mapping</url-pattern>
+	</servlet-mapping>  
+  
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>main.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
+

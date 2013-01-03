@@ -1,0 +1,86 @@
+body{
+	cursor: progress;
+}
+
+.clear{
+	clear: both;
+}
+
+.floatLeft{
+	float: left;
+}
+
+#imageList{
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+#imageList li{
+	width: 48%;
+	margin: .5%;
+	text-align: center;
+	float: left;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: white;
+	list-style: none;
+}
+
+#imageList li img{
+	max-width: 50%;
+	max-height:100%;
+	cursor: pointer;
+	float: left;
+}
+
+#imageList li p{
+	padding: 5px;
+	text-align: left;
+}
+
+div.lightbox{
+	position: fixed;
+	top: 0;
+	left: 0; 
+	width:100%;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+	z-index: 10;
+}
+div.lightbox h2{
+	color: white;
+	text-shadow: 0px 1px 0px black;
+	margin-top: 15px;
+}
+
+img.clone{
+	position: relative;
+	z-index:11;
+	max-height: 100%;
+	max-width:100%;
+	opacity: 1;
+}
+
+h1, h2{
+	text-shadow: 0px 1px 1px white;
+}
+
+#introDiv{
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 10 25px 10 25; 
+	margin: 1em 0 0 0;
+}
+
+#introDiv h1, h2, h3{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+
+
+

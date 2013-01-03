@@ -1,0 +1,66 @@
+body.contact{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14;	
+}
+
+h1.contact {
+	text-align:center;	
+}
+
+table, td, tr{
+	border: 0px;
+}
+
+table.info{
+	font-family: Verdana, Helvitica, sans-serif;
+	border-width: 0px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+	background-color: white;	
+
+}
+
+table.info th{
+	font-weight: bold;
+	text-align: left;
+	
+	padding-bottom: 5px;
+		
+	border-width: 0px;
+	border-spacing: 0px;
+	border-style: dotted;
+	border-color: black;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+table.info td{
+	padding-left: 10px;
+	padding-bottom: 5px;
+	
+	border-width: 0px;
+	border-spacing: 0px;
+	border-style: dotted;
+	border-color: red;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+
+
+table.container {
+	vertical-align: middle;
+	width: 100%;	
+}
+table.container td{
+	align: center;
+	border-width: px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+	background-color: white;	
+}
+

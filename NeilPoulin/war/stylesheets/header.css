@@ -1,0 +1,76 @@
+#header{
+	height: 65px;
+	width: 100%;
+	font-size: 1.5em;
+}
+
+#facebook{
+	height: 40px;
+}
+
+div.fb-like{
+	height: 100%;
+}
+
+hr{
+	height: 1px;
+	background-color: black;
+	border-collapse: collapse;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+h1.title{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 15px;
+	font-family: arial;
+	font-size: 5em;	
+}
+
+#projectList{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+	position: absolute;
+	height: 2.5em;
+}
+
+#projectList li:first-child{
+	border-bottom-left-radius: 10px;
+	border-left-width: 2px;
+}
+#projectList li:first-child:hover{
+	
+}
+
+#projectList li:last-child{
+	border-bottom-right-radius: 10px;
+	border-right-width: 2px;
+}
+
+#projectList li:last-child:hover{
+	
+}
+
+#projectList li{
+	float: left;
+	padding: 10px 15px 10px 15px;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	text-shadow: 0px 1px 1px white;
+	font-size: 1.2em;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#projectList li:hover{
+	cursor: pointer;
+	color: white;
+	text-shadow: 0px -1px -1px black;	
+}
+
+
+

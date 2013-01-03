@@ -1,0 +1,2 @@
+serviceClass: careers.client.GreetingService
+path: 05407677900656A93CDD216013581E5A.gwt.rpc
