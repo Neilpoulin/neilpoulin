@@ -79,7 +79,6 @@
   
   
 	<body>
-		<h3 style="text-align: center">***IE Compatability Mode***</h3>
 		<h1 style="text-align:center">Neil Poulin<br></h1>
 	    
 		
