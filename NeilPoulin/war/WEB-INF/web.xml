@@ -7,7 +7,7 @@
  
 	<servlet>
 		<servlet-name>myresume</servlet-name>
-		<jsp-file>/resume.jsp</jsp-file>
+		<jsp-file>/resume_bootstrap.html</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>myresume</servlet-name>
@@ -16,7 +16,7 @@
   
   	<servlet>
 		<servlet-name>letter</servlet-name>
-		<jsp-file>/letter.jsp</jsp-file>
+		<jsp-file>/about_bootstrap.html</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>letter</servlet-name>
@@ -25,7 +25,7 @@
   
   	<servlet>
 		<servlet-name>mycontact</servlet-name>
-		<jsp-file>/contact.jsp</jsp-file>
+		<jsp-file>/contact_bootstrap.html</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>mycontact</servlet-name>
@@ -43,7 +43,7 @@
   
 	<servlet>
 		<servlet-name>projects</servlet-name>
-		<jsp-file>/projects.jsp</jsp-file>
+		<jsp-file>/projects_bootstrap.html</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>projects</servlet-name>
