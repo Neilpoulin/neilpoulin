@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$("#menuList li").click(function(){
-		var location = "/" + $(this).attr("title");
+		var location = "/" + $(this).attr("data-title");
 		window.location = location;
 	});
 	

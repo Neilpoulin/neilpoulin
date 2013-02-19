@@ -46,7 +46,7 @@
 	          </div>
 	        </div>
 	        <div class="item">
-	          <img src="/files/images/gamesquare.png" alt="">
+	          <img src="/files/images/gameboard.png" alt="">
 	          <div class="container">
 	            <div class="carousel-caption">
 	              <h1>Multi-Player Game</h1>
@@ -207,20 +207,23 @@
 				<div id="introDiv">
 					<h1>Game</h1>
 					<h2><a href="http://www.secrettoaster.neilpoulin.com" target="_blank">www.secrettoaster.neilpoulin.com</a></h2>
+					<p>
+						SecretToaster is the code-name for the development version of this online game. It is an online, multi-player game based on a board game invented by Craig Poulin in 2011. It is a turn based game where each player tries to achieve his/her Victory Condition by strategically issuing orders to their Knights and creating alliances with other players.
+					</p>
 					<p>This project is under active development and is not fully functional.</p>
 					<p>Click an image for a larger view</p>
 				</div>
 				<ul id="imageList">
 					<li>
 						<h3>Chat with Everyone or One-on-One</h3>
-						<img src="/files/game/GamePlaying.png"/>
+						<img src="/files/images/gamewindow.png"/>
 						<p>
 							Create a game for friends to join. 
 						</p>
 					</li>
 					<li>
 						<h3>Multi-Player Game</h3>
-						<img src="/files/game/GameCreate.png"/>
+						<!-- <img src="/files/game/GameCreate.png"/> -->
 						<img src="/files/game/GameJoin5Color.png"/>
 						<p>
 							Create or join a game to play with up to 5 other friends. 

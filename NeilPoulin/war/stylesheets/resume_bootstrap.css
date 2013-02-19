@@ -1,8 +1,14 @@
 div.navbar + div{
-	margin-top: 40px;
-	font-size: 1.2em;
-	height: 1000px;
-	margin-left: 0px;
-	margin-right: 0px;
+/* 	margin-top: 40px; */
+}
+
+#resumeImg{	
+	bottom: 0px;	
 	width: 100%;
+	max-width: 900px;
+	padding-bottom: 150px;
+}
+
+div.content{
+	/* padding: 20px; */
 }

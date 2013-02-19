@@ -6,5 +6,9 @@ p.letter {
 
 div.navbar + div{
 	margin-top: 60px;
-	font-size: 1.2em;
+	font-size: .9em;
+}
+
+p.lead {
+	font-size: 16px;
 }

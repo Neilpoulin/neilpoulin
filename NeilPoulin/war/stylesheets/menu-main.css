@@ -27,29 +27,52 @@
 }
 
 #menuList li:hover{
-	color: white;
+	color: black;
 	text-shadow: 0px -1px -1px black;
 	cursor: pointer;
+	box-shadow: 0px 0px 25px grey
 }
 
-#letterBox {
+#menuList li{
+	color: white;
+	
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-radial-gradient(center, circle farthest-corner, #7D7D7D 0%, #000A0F 100%);
+	
+	/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(center, circle farthest-corner, #7D7D7D 0%, #000A0F 100%);
+	
+	/* Opera */ 
+	background-image: -o-radial-gradient(center, circle farthest-corner, #7D7D7D 0%, #000A0F 100%);
+	
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #7D7D7D), color-stop(1, #000A0F));
+	
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(center, circle farthest-corner, #7D7D7D 0%, #000A0F 100%);
+	
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: radial-gradient(circle farthest-corner at center, #7D7D7D 0%, #000A0F 100%);
+}
+
+#letterBox:hover {
 	background-image: radial-gradient(center, circle farthest-corner, #FF4F4F 0%, #B50D07 100%);
 }
 
-#resumeBox{
+#resumeBox:hover{
 	background-image: radial-gradient(center, circle farthest-corner, #8A99FF 0%, #1424B5 100%);
 }
 
 
-#contactBox{
+#contactBox:hover{
 	background-image: radial-gradient(center, circle farthest-corner, #8DE38F 0%, #164F05 100%);
 }
 
-#homeBox{
+#homeBox:hover{
 	background-image: radial-gradient(center, circle farthest-corner, #B3B3B3 0%, #5E5E5E 100%);
 }
 
-#projectsBox{
+#projectsBox:hover{
 	background-image: radial-gradient(center, circle farthest-corner, #FFEA29 0%, #E8A51E 100%);
 
 }

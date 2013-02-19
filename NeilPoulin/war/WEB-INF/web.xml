@@ -4,10 +4,9 @@
     "http://java.sun.com/dtd/web-app_2_3.dtd">
 <web-app>
   <!-- Servlets -->
- 
 	<servlet>
 		<servlet-name>myresume</servlet-name>
-		<jsp-file>/resume_bootstrap.html</jsp-file>
+		<jsp-file>/resume_bootstrap.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>myresume</servlet-name>
@@ -16,7 +15,7 @@
   
   	<servlet>
 		<servlet-name>letter</servlet-name>
-		<jsp-file>/about_bootstrap.html</jsp-file>
+		<jsp-file>/about_bootstrap.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>letter</servlet-name>
@@ -25,7 +24,7 @@
   
   	<servlet>
 		<servlet-name>mycontact</servlet-name>
-		<jsp-file>/contact_bootstrap.html</jsp-file>
+		<jsp-file>/contact_bootstrap.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>mycontact</servlet-name>
@@ -43,7 +42,7 @@
   
 	<servlet>
 		<servlet-name>projects</servlet-name>
-		<jsp-file>/projects_bootstrap.html</jsp-file>
+		<jsp-file>/projects_bootstrap.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>projects</servlet-name>
