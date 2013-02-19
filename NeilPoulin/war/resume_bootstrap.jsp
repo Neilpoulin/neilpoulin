@@ -22,8 +22,9 @@
 	              <li class=""><a href="/home">Home</a></li>
 	              <li><a href="/letter">About</a></li>
 	              <li><a href="/contact">Contact</a></li>
-	              <li><a href="/projects">Projects</a></li>
-	              <li class="active"><a href="#">Resum&eacute</a></li>
+	              <li><a href="/projects">Projects<b class="caret"></b></a>	              	
+	              </li>
+	              <li class="active"><a href="#">Resum&eacute</a></li>	              
 	            </ul>
 	          </div><!--/.nav-collapse -->
 	        </div>
@@ -33,7 +34,7 @@
 	    <div class="content">
 			<div class="btn-group">
 				<a class="btn btn-primary" href="files/resume.pdf"><i
-					class="icon-download-alt"></i> Download</a> <a
+					class="icon-download-alt icon-white"></i> Download</a> <a
 					class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
 					href="#"><span class="caret"></span></a>
 				<ul class="dropdown-menu">

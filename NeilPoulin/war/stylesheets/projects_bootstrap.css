@@ -15,7 +15,6 @@
 .carousel-control {
   margin-top: 0;
   /* font-size: 120px; */
-  color: black;
   text-shadow: 0 1px 1px rgba(0,0,0,.4);
   background-color: gray;
   border: 0;
@@ -32,12 +31,19 @@
   max-height: 500px;
 }
 
+.carousel-indicators{
+	background-color: rgba(105, 101, 101, 0.45);
+	padding: 5px;
+	
+}
 .carousel-caption {
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: rgba(238, 238, 238, 0.77);
   position: static;
   max-width: 550px;
-  padding: 0 20px;
-  margin-top: 200px;
+  padding: 5px 20px 20px 20px;
+  border-radius: 6px;
+  margin-top: 75px;
 }
 .carousel-caption h1,
 .carousel-caption .lead {
