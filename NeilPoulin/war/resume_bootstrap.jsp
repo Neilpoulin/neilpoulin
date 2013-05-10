@@ -44,7 +44,7 @@
 				</ul>
 			</div>
 
-			<div>
+			<div class="container">
 				<!-- <embed src="files/resume.pdf#toolbar=0&amp;#navpanes=0&amp;#scrollbar=1&amp;#zoom=100;" height="100%" width="100%" align="center"/>	 -->								
 				<img src="/files/resume.png" alt="resume" id="resumeImg"/>	    
 		    </div>
