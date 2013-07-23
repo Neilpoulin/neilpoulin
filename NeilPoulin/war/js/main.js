@@ -4,11 +4,28 @@ $(document).ready( function(){
 	
 	$(window).resize(function(){
 		setHeight();
+		positionTitles();
 	});	
 	setWidths();
 	setHeight();
 	positionTitles();
+
+	$("#menuList li").click(function(){
+		var location = "/" + $(this).attr("data-title");
+		window.location = location;
+	});
+
 });
+
+function positionTitles(){
+	$("#menuList li span").each(function(index, obj){
+		var $obj = $(obj);
+		var spanH = $obj.height();
+		var parentH = $obj.parent().outerHeight();
+		var top = .5*parentH - .5*spanH;
+		$obj.css("top", top);
+	});
+}
 
 
 function getInternetExplorerVersion()
@@ -29,7 +46,7 @@ function checkVersion()
 {
   var msg = "";
   var ver = getInternetExplorerVersion();
-	if(ver!= -1) window.location.replace("/ie.jsp");
+	if(ver!= -1) window.location.replace("/pages/ie.jsp");
 }
 
 function setWidths(){

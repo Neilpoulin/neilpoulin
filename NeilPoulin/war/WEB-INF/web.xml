@@ -5,35 +5,40 @@
 <web-app>
   <!-- Servlets -->
 	<servlet>
-		<servlet-name>myresume</servlet-name>
-		<jsp-file>/resume_bootstrap.jsp</jsp-file>
+		<servlet-name>resume</servlet-name>
+		<jsp-file>/pages/resume.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>myresume</servlet-name>
+		<servlet-name>resume</servlet-name>
 		<url-pattern>/resume</url-pattern>
 	</servlet-mapping>
   
   	<servlet>
-		<servlet-name>letter</servlet-name>
-		<jsp-file>/about_bootstrap.jsp</jsp-file>
+		<servlet-name>about</servlet-name>
+		<jsp-file>/pages/about.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>letter</servlet-name>
+		<servlet-name>about</servlet-name>
+		<url-pattern>/about</url-pattern>
+	</servlet-mapping>
+  
+  	<servlet-mapping>
+		<servlet-name>about</servlet-name>
 		<url-pattern>/letter</url-pattern>
 	</servlet-mapping>
   
   	<servlet>
-		<servlet-name>mycontact</servlet-name>
-		<jsp-file>/contact_bootstrap.jsp</jsp-file>
+		<servlet-name>contact</servlet-name>
+		<jsp-file>/pages/contact.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>mycontact</servlet-name>
+		<servlet-name>contact</servlet-name>
 		<url-pattern>/contact</url-pattern>
 	</servlet-mapping>
   
   	<servlet>
 		<servlet-name>main</servlet-name>
-		<jsp-file>/main.jsp</jsp-file>
+		<jsp-file>/pages/main.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>main</servlet-name>
@@ -42,45 +47,16 @@
   
 	<servlet>
 		<servlet-name>projects</servlet-name>
-		<jsp-file>/projects_bootstrap.jsp</jsp-file>
+		<jsp-file>/pages/projects.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>projects</servlet-name>
 		<url-pattern>/projects</url-pattern>
 	</servlet-mapping>
 	
-	
-	<servlet>
-		<servlet-name>game</servlet-name>
-		<jsp-file>/game.jsp</jsp-file>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>game</servlet-name>
-		<url-pattern>/projects/game</url-pattern>
-	</servlet-mapping>  
-  	
-  	<servlet>
-		<servlet-name>benzawacki</servlet-name>
-		<jsp-file>/benzawacki.jsp</jsp-file>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>benzawacki</servlet-name>
-		<url-pattern>/projects/benzawacki</url-pattern>
-	</servlet-mapping>  	
-  
-  	<servlet>
-		<servlet-name>mapping</servlet-name>
-		<jsp-file>/mapping.jsp</jsp-file>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>mapping</servlet-name>
-		<url-pattern>/projects/mapping</url-pattern>
-	</servlet-mapping>  
-  
-  
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>main.jsp</welcome-file>
+    <welcome-file>pages/main.jsp</welcome-file>
   </welcome-file-list>
 </web-app>
 
