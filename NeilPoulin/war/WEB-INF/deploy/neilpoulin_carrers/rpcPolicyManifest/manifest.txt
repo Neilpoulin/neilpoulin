@@ -1,2 +1,0 @@
-# Module neilpoulin_carrers
-# RPC service class, partial path of RPC policy file
