@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.neilpoulin.com/home</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.neilpoulin.com/contact</loc>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>http://www.neilpoulin.com/projects</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.neilpoulin.com/resume</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.neilpoulin.com/files/resume.pdf</loc>
+</url>
+<url>
+  <loc>http://www.neilpoulin.com/files/resume.doc</loc>
+</url>
+</urlset>
